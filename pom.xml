@@ -142,7 +142,7 @@
                     <execution>
                         <goals>
                             <goal>set-spec-properties</goal>
-                            <goal>check-module</goal>
+                            <!-- <goal>check-module</goal> -->
                         </goals>
                     </execution>
                 </executions>
@@ -296,19 +296,6 @@
                     </reporting>
                 </configuration>
             </plugin>
-	     <plugin>
-                 <groupId>org.apache.maven.plugins</groupId>
-                 <artifactId>maven-gpg-plugin</artifactId>
-                     <executions>
-                         <execution>
-                             <id>sign-artifacts</id>
-		             <phase>verify</phase>
-                             <goals>
-                                 <goal>sign</goal>
-                             </goals>
-                         </execution>
-                     </executions>
-             </plugin>
         </plugins>
     </build>
     <dependencies>
@@ -319,4 +306,34 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+
+   <profiles>
+       <profile>
+            <id>sign</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+                <property>
+                    <name>sign</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+		                        <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+             </build>
+       </profile>
+   </profiles>
 </project>
