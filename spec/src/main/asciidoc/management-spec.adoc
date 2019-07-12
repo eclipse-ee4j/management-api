@@ -4,7 +4,7 @@
 
 = Jakarta Management 1.1
 :authors: Jakarta Management Team, https://projects.eclipse.org/projects/ee4j.jakartaee-stable
-:email: https://dev.eclipse.org/mailman/listinfo/management-api-dev
+:email: https://dev.eclipse.org/mailman/listinfo/jakarta-stable-dev
 :version-label!:
 :doctype: book
 :license: Eclipse Foundation Specification License v1.0
