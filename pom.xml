@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.eclipse.ee4j</groupId>
         <artifactId>project</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
     </parent>
 
     <groupId>org.eclipse.ee4j.management-api</groupId>
@@ -44,7 +44,7 @@
         <non.final>false</non.final>
         <extension.name>javax.management.j2ee</extension.name>
         <spec.version>1.1</spec.version>
-        <bundle.symbolicName>javax.management.j2ee-api</bundle.symbolicName>         
+        <bundle.symbolicName>javax.management.j2ee-api</bundle.symbolicName>
         <vendor.name>Eclipse Project for Stable EE4J APIs</vendor.name>
         <implementation.vendor.id>org.glassfish</implementation.vendor.id>
         <findbugs.version>2.3.1</findbugs.version>
