@@ -42,7 +42,7 @@
     </properties>
 
     <name>${extension.name} API</name>
-    <description>JavaEE Management API</description>
+    <description>Jakarta Management</description>
     <url>https://github.com/eclipse-ee4j/management-api</url>
 
     <developers>
