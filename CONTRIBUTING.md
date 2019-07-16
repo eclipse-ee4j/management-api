@@ -1,4 +1,4 @@
-# Contributing to Eclipse Project for Stable Jakarta EE APIs
+# Contributing to Jakarta Stable APIs
 
 Thanks for your interest in this project.
 
