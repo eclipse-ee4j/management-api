@@ -1,4 +1,4 @@
-# Notices for Eclipse Project for Stable Jakarta EE APIs
+# Notices for Jakarta Stable APIs
 
 This content is produced and maintained by the Eclipse Project for Stable
 Jakarta EE APIs project.
@@ -7,7 +7,7 @@ Jakarta EE APIs project.
 
 ## Trademarks
 
-Eclipse Project for Stable Jakarta EE APIs is a trademark of the Eclipse
+Jakarta Stable APIs is a trademark of the Eclipse
 Foundation.
 
 ## Copyright
