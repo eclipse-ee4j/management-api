@@ -17,13 +17,13 @@
 package javax.management.j2ee.statistics;
 
 /**
- * Specifies the statistics provided by a JMS Resource
+ * Specifies the statistics provided by a Jakarta Messaging Resource
  *
  * @author Hans Hrasna
  */
 public interface JMSStats extends Stats {
     /**
-     * Returns an array of JMSConnectionStats that provide statistics about the connections associated with the referencing JMS resource.
+     * Returns an array of JMSConnectionStats that provide statistics about the connections associated with the referencing Jakarta Messaging resource.
      */
     JMSConnectionStats[] getConnections();
 }

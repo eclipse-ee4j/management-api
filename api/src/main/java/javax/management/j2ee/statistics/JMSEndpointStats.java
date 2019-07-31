@@ -16,7 +16,7 @@
 
 package javax.management.j2ee.statistics;
 
-/** Specifies the statistics provided by a JMS message producer or a JMS message consumer. */
+/** Specifies the statistics provided by a Jakarta Messaging message producer or a Jakarta Messaging message consumer. */
 public interface JMSEndpointStats extends Stats {
     /** Number of messages sent or received. */
     CountStatistic getMessageCount();

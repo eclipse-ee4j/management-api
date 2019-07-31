@@ -17,7 +17,7 @@
 package javax.management.j2ee.statistics;
 
 /**
- * Specifies the statistics provided by a JCA Connection Pool
+ * Specifies the statistics provided by a Jakarta Connections Connection Pool
  *
  */
 public interface JCAConnectionPoolStats extends JCAConnectionStats {

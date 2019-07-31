@@ -17,7 +17,7 @@
 package javax.management.j2ee.statistics;
 
 /**
- * Specifies the statistics provided by a JMS connection
+ * Specifies the statistics provided by a Jakarta Messaging connection
  *
  * @author Hans Hrasna
  */
@@ -29,8 +29,8 @@ public interface JMSConnectionStats extends Stats {
     JMSSessionStats[] getSessions();
 
     /**
-     * Returns the transactional state of this JMS connection.
-     * If true, indicates that this JMS connection is transactional.
+     * Returns the transactional state of this Jakarta Messaging connection.
+     * If true, indicates that this Jakarta Messaging connection is transactional.
      */
     boolean isTransactional();
 

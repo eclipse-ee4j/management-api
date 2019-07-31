@@ -34,7 +34,7 @@ import java.rmi.RemoteException;
 
 /**
  * The Management interface provides the APIs to navigate and manipulate
- * managed objects. The Jakarta EE Management EJB component (MEJB) must implement
+ * managed objects. The Jakarta Management Enterprise Bean component (MEJB) must implement
  * this as its remote interface.
  *
  * @author Hans Hrasna
@@ -48,7 +48,7 @@ public interface Management extends javax.ejb.EJBObject {
      * <CODE>ObjectName</CODE>, a specific managed object name (equivalent to
      * testing whether a managed object is registered). When the object name is
      * null or no domain and key properties are specified, all objects are selected.
-     * It returns the set of Jakarta EEObjectNames for the managed objects selected.
+     * It returns the set of Jakarta EE ObjectNames for the managed objects selected.
      *
      * @param name The object name pattern identifying the managed objects to be retrieved. If
      * null or no domain and key properties are specified, all the managed objects registered will be retrieved.

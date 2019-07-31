@@ -17,7 +17,7 @@
 package javax.management.j2ee.statistics;
 
 /**
- * Specifies the statistics provided by a JMS message producer
+ * Specifies the statistics provided by a Jakarta Messaging message producer
  *
  * @author Hans Hrasna
  */

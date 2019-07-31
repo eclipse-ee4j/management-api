@@ -17,10 +17,10 @@
 package javax.management.j2ee.statistics;
 
 /**
- * Specifies the statistics provided by a JCA connection
+ * Specifies the statistics provided by a Jakarta Connections connection
  */
 public interface JCAConnectionStats extends Stats {
-    /** 
+    /**
      * Returns the associated JCAConnectionFactory OBJECT_NAME
      * @return String the OBJECT_NAME of the managed object that identifies
      * the connection factory for this connection
