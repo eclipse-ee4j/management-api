@@ -17,21 +17,21 @@
 package javax.management.j2ee.statistics;
 
 /**
- * Specifies the statistics provided by a JTA resource. 
+ * Specifies the statistics provided by a Jakarta Transactions resource. 
  */
 public interface JTAStats extends Stats {
     /**
-     * Number of active transactions. 
+     * Number of active transactions.
      */
     CountStatistic getActiveCount();
 
     /**
-     * Number of committed transactions. 
+     * Number of committed transactions.
      */
     CountStatistic getCommittedCount();
 
     /**
-     * Number of rolled-back transactions. 
+     * Number of rolled-back transactions.
      */
     CountStatistic getRolledbackCount();
 }

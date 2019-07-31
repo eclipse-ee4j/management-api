@@ -21,7 +21,7 @@ package javax.management.j2ee.statistics;
  */
 public interface JavaMailStats {
     /**
-     * The number of mail messages sent. 
+     * The number of mail messages sent.
      */
     CountStatistic getSentMailCount();
 }

@@ -21,7 +21,7 @@ import javax.management.*;
 import javax.ejb.*;
 
 /**
- * The required home interface for the Jakarta EE Management EJB component (MEJB).
+ * The required home interface for the Jakarta Management Enterprise Bean component (MEJB).
  * A Jakarta EE client must be able to create a compliant session object using the
  * specified create() method.
  *
@@ -29,11 +29,11 @@ import javax.ejb.*;
  */
 public interface ManagementHome extends EJBHome {
     /**
-     * Creates an MEJB session object which provides access to the Jakarta EE Management Model
+     * Creates an MEJB session object which provides access to the Jakarta Management Model
      *
      * @return An MEJB session object which implements <CODE>javax.management.j2ee.Management</CODE>
      *
-     * @exception CreateExceotion Indicates a failure to create the EJB object
+     * @exception CreateExceotion Indicates a failure to create the MEJB object
      * @exception RemoteException A communication exception occurred during the execution of a remote method call
      */
     Management create() throws CreateException, RemoteException;

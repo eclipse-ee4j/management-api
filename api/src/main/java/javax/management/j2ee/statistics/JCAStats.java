@@ -17,19 +17,19 @@
 package javax.management.j2ee.statistics;
 
 /**
- * Specifies statistics provided by a JCA resource
+ * Specifies statistics provided by a Jakarta Connections resource
  */
 public interface JCAStats extends Stats {
     /**
      * Returns an array of JCAConnectionStats that provide statistics about
-     * the non-pooled connections associated with the referencing JCA resource statistics
+     * the non-pooled connections associated with the referencing Jakarta Connections resource statistics
      * @return JCAConnectionStats []
      */
     JCAConnectionStats[] getConnections();
 
     /**
      * Returns an array of JCAConnectionPool Stats that provide statistics about
-     * the connection pools associated with the referencing JCA resource statistics
+     * the connection pools associated with the referencing Jakarta Connections resource statistics
      * @return JCAConnectionPoolStats []
      */
     JCAConnectionPoolStats[] getConnectionPools();
