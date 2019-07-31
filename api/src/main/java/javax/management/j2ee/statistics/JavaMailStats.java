@@ -17,7 +17,7 @@
 package javax.management.j2ee.statistics;
 
 /**
- * Specifies the statistics provided by a JavaMail resource. 
+ * Specifies the statistics provided by a Jakarta Mail resource.
  */
 public interface JavaMailStats {
     /**

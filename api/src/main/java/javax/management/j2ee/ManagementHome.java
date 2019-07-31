@@ -21,15 +21,15 @@ import javax.management.*;
 import javax.ejb.*;
 
 /**
- * The required home interface for the J2EE Management EJB component (MEJB).
- * A J2EE client must be able to create a compliant session object using the
+ * The required home interface for the Jakarta EE Management EJB component (MEJB).
+ * A Jakarta EE client must be able to create a compliant session object using the
  * specified create() method.
  *
  * @author Hans Hrasna
  */
 public interface ManagementHome extends EJBHome {
     /**
-     * Creates an MEJB session object which provides access to the J2EE Management Model
+     * Creates an MEJB session object which provides access to the Jakarta EE Management Model
      *
      * @return An MEJB session object which implements <CODE>javax.management.j2ee.Management</CODE>
      *
