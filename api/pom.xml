@@ -320,7 +320,7 @@
         <dependency>
             <groupId>jakarta.ejb</groupId>
             <artifactId>jakarta.ejb-api</artifactId>
-            <version>3.2.3</version>
+            <version>3.2.6</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
