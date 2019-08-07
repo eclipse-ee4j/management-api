@@ -2,7 +2,7 @@
 // Copyright (c) 2017, 2019 Contributors to the Eclipse Foundation
 //
 
-= Jakarta Management 1.1
+= Jakarta Management
 :authors: Jakarta Management Team, https://projects.eclipse.org/projects/ee4j.jakartaee-stable
 :email: https://dev.eclipse.org/mailman/listinfo/jakarta-stable-dev
 :version-label!:
