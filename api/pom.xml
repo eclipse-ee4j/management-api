@@ -80,7 +80,7 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/javaee/management-api/issues</url>
+        <url>https://github.com/eclipse-ee4j/management-api/issues</url>
     </issueManagement>
 
     <mailingLists>
