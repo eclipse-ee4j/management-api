@@ -22,12 +22,12 @@
     <parent>
         <groupId>jakarta.management.j2ee</groupId>
         <artifactId>management-api-parent</artifactId>
-        <version>1.1.4-SNAPSHOT</version>
+        <version>1.1.5-SNAPSHOT</version>
     </parent>
 
     <groupId>jakarta.management.j2ee</groupId>
     <artifactId>jakarta.management.j2ee-api</artifactId>
-    <version>1.1.4-SNAPSHOT</version>
+    <version>1.1.5-SNAPSHOT</version>
 
     <properties>
         <non.final>false</non.final>
